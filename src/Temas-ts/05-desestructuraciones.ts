@@ -20,7 +20,7 @@ function calcularIVA(productos:Producto[]):number{
 
 const articulo1=[telefono,tablet];
 const iva1=calcularIVA(articulo1);
-console.log(`IVA1:${iva1}`)
+console.log(`IVA-1:${iva1}`)
 
 export function calcularIVA2(productos:Producto[]):[number,number]{
     let total=0;
